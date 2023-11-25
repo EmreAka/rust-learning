@@ -32,7 +32,7 @@ fn main() {
     v.push(user1);
     v.push(user2);
 
-    for &user in v {
+    for user in &v {
         println!("{0}", user.username)
     }
 
